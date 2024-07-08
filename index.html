@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Gift Finder</title>
@@ -7,8 +8,100 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" href="data:;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABm1BMVEUAAAABAQFeXl6Pj4+NjY2MjIyBgYFoaGhCQkIaGhoCAgKqqqr////29vbX19eRkZEyMjLl5eVycnIKCgr5+fmIiIgICAj39/dmZmb+/v6ioqJsbGxzc3OTk5PU1NT9/f0iIiJaWlodHR2fn59vb28ZGRnJycm1tbUHBwd1dXXc3NxBQUH19fXv7+8qKirq6upAQEAkJCREREQoKCjo6Og+Pj45OTny8vLt7e0vLy9iYmLZ2dmrq6uysrIGBgYNEwYOFgcDBQJhYWEPDw8nJyd4eHjc29wwNSpFaiNtpjhvqjlRfCoTHQrY2NjBwcHLy8v9/P16e3lKcSaCxUOBxUODx0Nciy8IDASrqqskLhtyrzqBxEKAw0KAxEJ8vUAiNBKtra0bGxwZJgx5uD5/wkIrQRbi4uJ8fHwSEhIMEgZpoDaCxkN1sjwXJAynp6f6+vr4+Pjx8fHg4OC6urp3d3cpKSkuRxh3tT2Cx0N8vEA+XiABAgExMTFLS0tKSkpFRUU2NjYfHx8JCQkCAgEfMBBFaSRIbiUnPBQEBgL+WEa/AAAAAWJLR0QMgbNRYwAAAAd0SU1FB+AFExMfJL/lMUUAAAEXSURBVDjLY2AYHICRiZkFDFjZ2Dk4uTAVcHHzwAEvH78AFz4FQCAoJIxfAY+IqBh+BTziEtgUSEpJy8jKyYNV8ClgU6AIZCopS4JVqOBSwKCqBlagroFLAYMmWIGWEk4F2jogjq4ATgV6+uDwMsCpwFAQ7FEjnAqMTUAcHVOcCszMQRwLS5wKrMABYc2JS4GGDdibtna4FCiaQ0PS3sERXYGTnbOLK9iJPG7uHp5e3j5osenr5y8IiauAwKDgkJDQsHBc0R0RGRUdExMbF49dgXxCYlJybExMTEoqNgWSaekZDJlZ2TExITm5MAV5kvlgUFBYVFxSCkqzZeXZFZVV1bBkX1NbBwb1DY1NEKHmlta29g6GQQIAqes9TNUVjbkAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTYtMDUtMTlUMTk6MzE6MzYrMDI6MDBHM1GbAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE2LTA1LTE5VDE5OjMxOjM2KzAyOjAwNm7pJwAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAABXelRYdFJhdyBwcm9maWxlIHR5cGUgaXB0YwAAeJzj8gwIcVYoKMpPy8xJ5VIAAyMLLmMLEyMTS5MUAxMgRIA0w2QDI7NUIMvY1MjEzMQcxAfLgEigSi4A6hcRdPJCNZUAAAAASUVORK5CYII=">
 </head>
-<body>
+
+    <body>
+        <header class="header">
+            <div class="logo">
+                <a href="#home">
+                    <img src="Images/logo.png" alt="Logo" height="78">
+                </a>
+            </div>
+            <div>           
+                <ul class="header_menu">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#aboutus">About Us</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#blogs">Blogs</a></li>
+                </ul>
+            </div>
+            <div>
+                <button class="header_button" type="button">Gift Finder</button>
+            </div>
+        </header>
+
     <main>
+
+        <section class="first_section">
+            <div class="first_section_container">
+                <div></div>
+                <div class="first_section_left_container">
+                    <div class="first_section_left_container_content">
+                        <h2>Find a gift for your wife or girlfriend</h2>
+                        <p>Struggling to find a gift for your wife or girlfriend? No problem!</p>
+                        <button>Find gift now</button>
+                    </div>
+            </div>
+                <div class="first_section_right_container">
+                    <img id = "sectionOne" src="Images/sectionOne.png" alt="Gift for your wife">
+                </div>
+            </div>    
+        </section>
+
+        <section class="second_section">
+            <div class="second_section_container">
+                <div class="second_section_right_container">
+                    <img id = "sectionTwo" src="Images/sectionTwo.png" alt="Gift for your wife">
+                </div>
+                <div></div>
+                <div class="second_section_left_container">
+                    <div class="second_section_left_container_content">
+                        <h2>How we work</h2>
+                        <p>We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift options.</p>
+                        <button>Find gift now</button>
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+        <section class="third_section">
+            <table>
+            <tr>
+                <td colspan="4">
+                    <h2>Gifts for all Occasions</h2>
+                    <p>"Try our web app to find the best gifts for all occasions"</p>    
+                </td>
+            </tr>
+            <tr>
+                <td class="third_section_td"><img src="Images/gift1.png" alt="Birthday">
+                    <p>Birthday</p>
+                    <a href="#birthday">See More &#8594;</a>
+                </td>
+                <td class="third_section_td"><img src="Images/gift2.png" alt="Anniversary">
+                    <p>Anniversary</p>
+                    <a href="#anniversary">See More &#8594;</a>
+                </td>
+                <td class="third_section_td"><img src="Images/gift3.png" alt="Valentine's Day">
+                    <p>Valentine's Day</p>
+                    <a href="#valentines_day">See More &#8594;</a>
+                </td>
+                <td class="third_section_td"><img src="Images/gift4.png" alt="Christmas">
+                    <p>Birthday</p>
+                    <a href="#christmas">See More &#8594;</a>
+                </td>
+            </tr>
+            </table>
+            </section>
+    
+        <footer class="first_footer">
+            <div class="footer_container">
+                Ready to get started?
+                <div>
+                    <button class="footer_button">Find gift now</button>   
+                </div>
+            </div>
+            
+        </footer>
+
         <section class="first_section_two">
             <form action="/submit-form" method="post">
                 <table class="find_gift_now_form">
@@ -16,7 +109,7 @@
                         <td colspan="2"><h2>Find gift now</h2></td>
                     </tr>
                     <tr>
-                        <td>
+                        <td class="first_row">
                             <label for="name" id="name-label">Your name <span class="required">*</span></label><br>
                             <input type="text" id="name" name="name" autocomplete="off" placeholder="Name...">
                         </td>
@@ -83,48 +176,49 @@
             </div>
         </section>      
       
-    </main>
-
-    <footer>
-        <div class="nav-container">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li class="logo">
-                    <a href="#">
-                        <img src="Images/logo_footer.png" alt="footer logo">
-                    </a>
-                </li>
-                <li><a href="#service">Service</a></li>
-                <li><a href="#blog">Blog</a></li>
-            </ul>
-        </div>
+        <footer class="second_footer">
+            <div class="nav-container">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li class="logo">
+                        <a href="#">
+                            <img src="Images/logo_footer.png" alt="footer logo">
+                        </a>
+                    </li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </div>
+        
+            <div class="divider"></div>
     
-        <div class="divider"></div>
+            <div class="social_icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="facebook">
+                    <img src="Images/entypo-social_facebook-with-circle.png" alt="facebook">
+                </i></a>
+                <a href="https://x.com/?lang=en" target="_blank"><i class="twitter">
+                    <img src="Images/entypo-social_twitter-with-circle.png" alt="twitter">
+                </i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="instagram">
+                    <img src="Images/entypo-social_instagram-with-circle.png" alt="instagram">
+                </i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="youtube" >
+                    <img src="Images/entypo-social_youtube-with-circle.png" alt="youtube">
+                </i></a>
+                <a href="https://www.pinterest.com/" target="_blank"><i class="pinterest">
+                    <img src="Images/entypo-social_pinterest-with-circle.png" alt="pinterest">
+                </i></a>
+            </div>
+            <div class="footer">
+                <p>&copy;2010 — 2024</p>
+                <a href="#">Privacy</a> —
+                <a href="#">Terms</a>
+            </div>
+        </footer>
 
-        <div class="social_icons">
-            <a href="https://www.facebook.com/" target="_blank"><i class="facebook">
-                <img src="Images/entypo-social_facebook-with-circle.png" alt="facebook">
-            </i></a>
-            <a href="https://x.com/?lang=en" target="_blank"><i class="twitter">
-                <img src="Images/entypo-social_twitter-with-circle.png" alt="twitter">
-            </i></a>
-            <a href="https://www.instagram.com/" target="_blank"><i class="instagram">
-                <img src="Images/entypo-social_instagram-with-circle.png" alt="instagram">
-            </i></a>
-            <a href="https://www.youtube.com/" target="_blank"><i class="youtube" >
-                <img src="Images/entypo-social_youtube-with-circle.png" alt="youtube">
-            </i></a>
-            <a href="https://www.pinterest.com/" target="_blank"><i class="pinterest">
-                <img src="Images/entypo-social_pinterest-with-circle.png" alt="pinterest">
-            </i></a>
-        </div>
-        <div class="footer">
-            <p>&copy;2010 — 2024</p>
-            <a href="#">Privacy</a> —
-            <a href="#">Terms</a>
-        </div>
-    </footer>
-
+    </main>
+    
 </body>
+
 </html>
